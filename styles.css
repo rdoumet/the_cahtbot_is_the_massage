@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Roboto Condensed', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+}
+
+.wrapper {
+    display: grid;
+    background-color: black;
+    grid-template-columns: repeat(12, [col-start] 1fr);
+    gap: 20px;
+  }
+
+  .wrapper > * {
+    grid-column: col-start / span 12;
+  }
+
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 100;
+    background-color: black;
+}
+
+h2{
+    font-size: 24px;
+    font-weight: 200;
+    color: rgb(255, 255, 255);
+}
+
+p{
+    font-size: 18px;
+    font-weight: 200;
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+
+
+.img-container{
+    background: url("img/thepeopleismassage.jpg");
+    width:100%;
+    height: 1080px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.header-container{
+    display:grid;
+    grid-template-columns: 1fr auto 1fr;
+    width: 100%;
+    align-items: center;
+    font-weight: 100px;
+}
+
+.suscription-body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(68, 66, 66, 0.2);
+    border-radius: 5px;
+    margin: 0% 10% 0% 10%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+}
+
+.item1{
+    display: flex;
+    flex-direction: column;
+}
+
+.df-messenger {
+        --df-messenger-bot-message: #878fac;
+        --df-messenger-button-titlebar-color: #df9b56;
+        --df-messenger-chat-background-color: #fafafa;
+        --df-messenger-font-color: white;
+        --df-messenger-send-icon: #878fac;
+        --df-messenger-user-message: #479b3d;
+}
+
+.igqr{
+    width: 10%;
+    border-radius:  5px;
+    background-color: black;
+}
